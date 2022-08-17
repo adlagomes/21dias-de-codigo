@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+@keyframes animacao {
+  from {
+    color: #FFF;
+    -webkit-text-stroke: .5px #FFF;
+  }
+
+  to {
+    color: transparent;
+    -webkit-text-stroke: 4px #34CAFF;
+    background: -webkit-linear-gradient(-106deg, #5237FA 5%, #3761DE 53%, #4AB6F5 91%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #030321;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background: #030321;
+  background-image: url(./globo.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Silkscreen', cursive;
+  color: #fff;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  font-size: 6em;
+  margin-top: 6rem;
+  cursor: pointer;
+
+  animation: animacao 2s infinite;
+}
