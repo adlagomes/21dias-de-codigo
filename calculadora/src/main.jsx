@@ -5,7 +5,6 @@ import "./main.css";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <h1>Calculadora - 21 dias de código</h1> */}
     <Calculator />
   </React.StrictMode>
 )
