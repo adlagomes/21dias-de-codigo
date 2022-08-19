@@ -1,0 +1,41 @@
+.background-color {
+  background-color: #FFF;
+  widht: 3em;
+  height: 20em;
+}
+
+button {
+  width: 2.8em;
+  height: 2.8em;
+  border-radius: 2em;
+  border: none;
+  font-size: 28px;
+  color: black;
+  background-color: #FFF;
+  cursor: pointer;
+  margin: .5em;
+  outline: none;
+}
+
+button:active {
+  background-color: #DFDDD8;
+  transition: 200ms ease-out;
+}
+
+.orange {
+  color: #FFF;
+  background-color: #F7941D;
+  grid-column: 2span;
+  width: 6.6em;
+  height: 2.8em;
+}
+
+.orange:active {
+  color: #FFF;
+  background-color: #F7941D;
+  transform: scale(0.9);
+}
+
+.operation {
+  color: #F7941D;
+}
